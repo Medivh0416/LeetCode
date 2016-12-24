@@ -9,6 +9,17 @@ public class ReverseInteger1 {
 	}
 	
 
+	/**
+	 * Easy
+	 * 1.Single number's reverse equals itself
+	 * 2.set a temp to store the Output
+	 * 3.get the last digit of X (X%10) and remove it from X (X=X/10)
+	 * 4.temp=temp*10+last digit of X
+	 * 5.until X equals to 0
+	 * 6.determine if X is out of Integer bounds
+	 * @param x
+	 * @return
+	 */
 	public static int demo2(int x){
 		if(x<10&&x>-10){
 			return x;
@@ -30,6 +41,17 @@ public class ReverseInteger1 {
 		}		
 		return result;
 	}
+	/**
+	 * Easy
+	 * Another way
+	 * 1.convert x to String
+	 * 2.get each character from last digit of String
+	 * 3.append digit to a StringBuilder
+	 * 4.convert StringBuilder to Integer
+	 * 5.determine if integer is out of bounds
+	 * @param x
+	 * @return
+	 */
 	public static int demo1(int x) {
 		if (x < 10 && x > -10) {
 			return x;

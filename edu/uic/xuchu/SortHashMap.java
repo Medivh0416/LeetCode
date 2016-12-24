@@ -27,6 +27,15 @@ public class SortHashMap {
 		System.out.println(sortedHashMap);
 	}
 
+	/**
+	 * Make HashMap sortable
+	 * 1.Get the EntrySet of the hashMap
+	 * 2.Convert the EntrySet to List
+	 * 3.Override list's Comparator Interface
+	 * 4.Iterate the List and put them in a LinkedHashMap
+	 * @param hashMap
+	 * @return LinkedHashMap
+	 */
 	private static HashMap sort(HashMap<Integer, User> hashMap) {
 		Set<Entry<Integer,User>> entrySet=hashMap.entrySet();
 		ArrayList<Entry<Integer,User>> list=new ArrayList<Entry<Integer,User>>(entrySet);

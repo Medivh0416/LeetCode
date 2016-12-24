@@ -1,5 +1,19 @@
 package edu.uic.xuchu;
-
+/**
+ * Easy
+ * 1. determine if the String have Spaces on its left
+ * 2. determine the String is null or nothing
+ * 3. read the first character, boolean positive or negative
+ * 4. define a double Variables to save the digit 
+ * (long is not enough, have to make sure it will not overflow)
+ * 5. char2int: String.charAt(i)-'0';
+ * 6. determine its range[0-9]; or break
+ * 7. determine the sign of the temp
+ * 8. determine the and return range [Integer.MIN_VALUE,Integer.MAX_VALUE];
+ * 
+ * @author xuchu
+ *
+ */
 public class StringtoIntegeratoi {
 
 	public static void main(String[] args) {
