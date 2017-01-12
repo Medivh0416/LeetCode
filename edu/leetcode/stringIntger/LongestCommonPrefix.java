@@ -1,4 +1,4 @@
-package edu.uic.xuchu;
+package edu.leetcode.stringIntger;
 
 public class LongestCommonPrefix {
 	public static void main(String[] args) {

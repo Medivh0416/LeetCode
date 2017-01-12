@@ -1,4 +1,4 @@
-package edu.uic.xuchu;
+package edu.leetcode.linkedList;
 
 public class SwapNodesinPairs {
 	/**

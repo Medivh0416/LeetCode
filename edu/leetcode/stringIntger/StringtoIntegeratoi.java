@@ -1,4 +1,4 @@
-package edu.uic.xuchu;
+package edu.leetcode.stringIntger;
 /**
  * Easy
  * 1. determine if the String have Spaces on its left

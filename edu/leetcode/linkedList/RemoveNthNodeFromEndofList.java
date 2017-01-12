@@ -1,4 +1,4 @@
-package edu.uic.xuchu;
+package edu.leetcode.linkedList;
 
 /**
  * Definition for singly-linked list. public class ListNode { int val; ListNode

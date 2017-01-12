@@ -1,7 +1,9 @@
-package edu.uic.xuchu;
+package edu.leetcode.map;
 
 import java.util.*;
 import java.util.Map.Entry;
+
+import edu.uic.xuchu.User;
 
 public class SortHashMap {
 
