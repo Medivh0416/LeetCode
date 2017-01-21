@@ -21,7 +21,7 @@ public class PalindromeNumber {
         }else if(x<=9){
             return true;
         }
-        double xTemp=(double)x;
+        double xTemp=x;
         double temp=0;
         double revsX=0;
         while(x!=0){

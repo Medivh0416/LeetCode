@@ -3,8 +3,6 @@ package edu.leetcode.map;
 import java.util.*;
 import java.util.Map.Entry;
 
-import edu.uic.xuchu.User;
-
 public class SortHashMap {
 
 	public static void main(String[] args) {

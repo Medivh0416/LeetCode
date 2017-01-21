@@ -1,7 +1,5 @@
 package edu.leetcode.stringIntger;
 
-import org.junit.*;
-
 public class ReverseInteger1 {
 
 	public static void main(String[] args) {

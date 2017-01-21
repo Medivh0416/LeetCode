@@ -1,8 +1,5 @@
 package edu.leetcode.array;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class ValidSudoku {
 
 	public static void main(String[] args) {
