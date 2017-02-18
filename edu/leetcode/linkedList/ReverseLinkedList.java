@@ -2,6 +2,8 @@ package edu.leetcode.linkedList;
 
 public class ReverseLinkedList {
 	/**
+	 * Easy
+	 * 
      * @param head: The head of linked list.
      * @return: The new head of reversed linked list.
      */
