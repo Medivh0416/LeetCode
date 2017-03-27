@@ -1,11 +1,45 @@
 package edu.leetcode.stringIntger;
 
 public class PalindromeNumber {
-	
-	public static void main(String[] args) {
-		System.out.println(isPalindrome(11));
-	}
-	
+
+    
+    private int digit(int x){
+        int count=0;
+        while(x!=0){
+            x=x/10;
+            count++;
+        }
+        return count;
+    }
+    /**
+     * Use double pointer
+     * @param x
+     * @return
+     */
+    public boolean isPalindrome1(int x) {
+        if(x<0){
+            return false;
+        }
+        if(x<10){
+            return true;
+        }
+        int count=digit(x);
+        int half=count/2;
+        int n=x;
+        int p=(int)Math.pow(10,count-1);
+        for(int i=0;i<half;i++){
+            if(x/p%10==n%10){
+                n=n/10;
+                p=p/10;
+            }
+            else{
+                return false;
+            }
+            
+        }
+        return true;
+    }
+
 	/**
 	 * Easy
 	 * Like what I did in previous ReverseInteger

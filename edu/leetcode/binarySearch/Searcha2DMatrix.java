@@ -1,4 +1,4 @@
-package edu.leetcode.array;
+package edu.leetcode.binarySearch;
 
 public class Searcha2DMatrix {
 	/**
